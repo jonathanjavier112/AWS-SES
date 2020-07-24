@@ -31,7 +31,9 @@
 |[accessKeyId]|Access Key Id del usuario, se obtiene al ingresar al servicio IAM|"AJLA7LYANPSBLO4AHHVU"|
 |[secretAccessKey]|Secret Access Key del usuario, se obtiene al ingresar al servicio IAM|"7cH0QlklOa6ffFIUGaJKdeSjMMSM4WTYv2NiTYf3"|
 
-> Debe dar acceso la cuenta desde IAM el uso del servicio SES y dentro de la consola SES agregar los correos del destinatario y de la dirección de donde se envia, les llegará un correo de confirmación y deberán autorizar desde el correo enviadoDebe dar acceso la cuenta desde IAM el uso del servicio SES y dentro de la consola SES agregar los correos del destinatario y de la dirección de donde se envia, les llegará un correo de confirmación y deberán autorizar desde el correo enviado
+> Debe dar acceso la cuenta desde IAM el uso del servicio SES y dentro de la consola SES agregar los correos del destinatario y de la dirección de donde se envia, les llegará un correo de confirmación y deberán autorizar desde el correo enviado.
+
+>Dar acceso la cuenta desde IAM el uso del servicio SES y dentro de la consola SES agregar los correos del destinatario y de la dirección de donde se envia, les llegará un correo de confirmación y deberán autorizar desde el correo enviado
 
 ---
 
