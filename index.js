@@ -1,15 +1,16 @@
 const AWS = require('aws-sdk');
+require('dotenv').config();
 
 AWS.config.update({
-    region: [REGION],
-    accessKeyId: [accessKeyId],
-    secretAccessKey: [secretAccessKey]
+    region: process.env.REGION,
+    accessKeyId: process.env.ACCESSKEYID,
+    secretAccessKey: process.env.SECRETACCESSKEY
 });
 
 const params = {
     Destination: {
         ToAddresses: [
-            "correo2@ymail.com",
+            process.env.CORREODESTINO,
         ]
     },
     Message: {
@@ -24,9 +25,9 @@ const params = {
             Data: 'Asunto o título del correo'
         }
     },
-    Source: 'correo1@gmail.com',
+    Source: process.env.CORREOORIGEN,
     ReplyToAddresses: [
-        'responder@mexico.mx',
+        process.env.CORREORESPUESTAA,
     ],
 };
 

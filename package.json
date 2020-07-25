@@ -1,0 +1,25 @@
+{
+  "name": "awsses",
+  "version": "1.0.0",
+  "description": "[![AWS SES](https://docs.aws.amazon.com/es_es/sdk-for-javascript/v2/developer-guide/images/code-samples-ses.png \"AWS.SES\")](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/ses-examples-sending-email.html \"AWS SES\")",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "aws-sdk": "^2.638.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanjavier112/AWS-SES.git"
+  },
+  "keywords": [],
+  "author": "Jonathan J",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathanjavier112/AWS-SES/issues"
+  },
+  "homepage": "https://github.com/jonathanjavier112/AWS-SES#readme"
+}
